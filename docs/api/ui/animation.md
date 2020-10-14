@@ -121,7 +121,9 @@ var animation = uni.createAnimation({
 ```javascript
 export default{
   data: {
-    animationData: {}
+    return{
+      animationData: {}
+    }
   },
   onShow: function(){
     var animation = uni.createAnimation({
